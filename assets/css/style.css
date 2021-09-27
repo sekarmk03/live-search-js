@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  padding: 0.7rem 3rem;
+  background-color: #2d3b3c !important;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.btn-src,
+.btn-save {
+  background-color: #c8ab5b !important;
+}
+
+.tbl-card {
+  background-color: rgba(255, 255, 255, 0.514);
+  margin-top: 6.5rem !important;
+}
+
+.fas {
+  font-size: 15px;
+}
+
+.btn-tambah {
+  opacity: 0.8;
+  margin: 10px 0;
+}
+
+.btn-tambah:hover {
+  opacity: 1;
+  transition: 500ms;
+}
+
+.modal-content {
+  background-color: rgba(98, 127, 109, 0.9);
+}
+
+.modal-title,
+.navbar-brand {
+  color: #ead27c !important;
+}
+
+@media screen and (max-width: 1090px) {
+  body {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+  }
+  .tbl-card {
+    margin-top: 8rem !important;
+  }
+}
